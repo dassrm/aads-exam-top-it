@@ -6,14 +6,12 @@
 namespace smirnova {
 
     struct Arguments {
-        std::string inputFile;
-        std::string outputFile;
-        bool inputSet;
-        bool outputSet;
+        std::string dataFile;
+        std::string inFile;
     };
 
     bool parseArguments(int argc, char* argv[], Arguments& args);
 
-}  // namespace smirnova
+}
 
-#endif  // ARGUMENTS_H_
+#endif
